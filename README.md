@@ -73,11 +73,6 @@ This pipeline builds on the simple RAG pipeline and introduces advanced techniqu
    cd simple_rag
    ```
 
-2. Run the pipeline:
-   ```bash
-   python main.py
-   ```
-
 ### Advanced RAG Pipeline
 1. Navigate to the `advanced_rag` directory:
    ```bash
