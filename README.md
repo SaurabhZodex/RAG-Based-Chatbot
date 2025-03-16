@@ -65,27 +65,6 @@ This pipeline builds on the simple RAG pipeline and introduces advanced techniqu
 
 ---
 
-## Usage
-
-### Simple RAG Pipeline
-1. Navigate to the `simple_rag` directory:
-   ```bash
-   cd simple_rag
-   ```
-
-### Advanced RAG Pipeline
-1. Navigate to the `advanced_rag` directory:
-   ```bash
-   cd advanced_rag
-   ```
-
-2. Run the doctor-assistant chatbot:
-   ```bash
-   python doctor_chatbot.py
-   ```
-
----
-
 ## Project Structure
 
 ```
