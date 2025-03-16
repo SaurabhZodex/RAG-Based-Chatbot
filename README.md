@@ -11,9 +11,8 @@ This repository contains two implementations of Retrieval-Augmented Generation (
 1. [Overview](#overview)
 2. [Features](#features)
 3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Project Structure](#project-structure)
-6. [Contributing](#contributing)
+4. [Project Structure](#project-structure)
+5. [Contributing](#contributing)
 
 ---
 
