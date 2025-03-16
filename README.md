@@ -3,7 +3,7 @@
 This repository contains two implementations of Retrieval-Augmented Generation (RAG) pipelines using LangChain:
 
 1. **Simple RAG Pipeline**: A basic implementation of a RAG pipeline to demonstrate the core concepts of retrieval-augmented generation.
-2. **Advanced RAG Pipeline**: This is an enhanced version of the RAG pipeline with practical tips and tricks to improve retrieval, generation, and overall performance. It is demonstrated through a practical example of building a chatbot to assist with a large amount of data.
+2. **Advanced RAG Pipeline**: This is an enhanced version of the RAG pipeline with practical tips and tricks to improve retrieval, generation, and overall performance. This is demonstrated by a useful example of building a chatbot to assist with a large amount of data.
 
 ---
 
@@ -90,12 +90,8 @@ This pipeline builds on the simple RAG pipeline and introduces advanced techniqu
 
 ```
 rag-pipeline-langchain/
-├── simple_rag/
-│   ├── RAG.ipynb                  # RAG pipeline
-│   └── README.md                # Documentation for the simple RAG pipeline
-├── advanced_rag/
-│   ├── Advanced_RAG.ipynb    # Advanced retrieval 
-│   └── README.md                # Documentation for the advanced RAG pipeline
+├── RAG.ipynb                    # RAG pipeline
+├── Advanced_RAG.ipynb           # Advanced retrieval 
 ├── requirements.txt             # Python dependencies
 ├── .env                         # Environment variables
 └── README.md                    # Main project documentation
