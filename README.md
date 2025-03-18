@@ -10,6 +10,7 @@ This repository contains two implementations of Retrieval-Augmented Generation (
 ## Table of Contents
 1. [Overview](#overview)
 2. [Features](#features)
+3. [Data Sources](#data-sources)
 3. [Installation](#installation)
 4. [Project Structure](#project-structure)
 5. [Contributing](#contributing)
@@ -45,6 +46,27 @@ This pipeline builds on the simple RAG pipeline and introduces advanced techniqu
 
 ---
 
+## Data Sources
+The project uses the following books as the primary data sources for retrieval and generation:
+
+1. "Verity" by Colleen Hoover
+Genre: Psychological Thriller
+
+Description: A gripping novel about a struggling writer, Lowen Ashleigh, who is hired to complete the remaining books in a successful series by the injured author, Verity Crawford. As Lowen works on the manuscripts, she uncovers dark secrets about Verity's life.
+
+Use Case: The book's complex narrative and character dynamics make it an excellent source for testing retrieval and generation capabilities.
+
+2. "The Girl on the Train" by Paula Hawkins
+Genre: Mystery, Thriller
+
+Description: A suspenseful story about Rachel, a woman who becomes entangled in a missing persons investigation that she observes during her daily train commute. The novel explores themes of memory, truth, and deception.
+
+Use Case: The intricate plot and unreliable narration provide rich content for testing advanced RAG techniques.
+
+Both books are preprocessed and indexed in a vector store for efficient retrieval. The text is segmented into chunks to facilitate context-aware retrieval and generation.
+
+---
+
 ## Installation
 
 1. Clone the repository:
@@ -68,7 +90,12 @@ This pipeline builds on the simple RAG pipeline and introduces advanced techniqu
 
 ```
 rag-pipeline-langchain/
-├── RAG.ipynb                    # RAG pipeline
+
+├── Dataset/
+│   ├── verity.txt                  # Text file for "Verity" by Colleen Hoover
+│   └── the_girl_on_the_train.txt   # Text file for "The Girl on the Train" by Paula Hawkins
+├── RAG_without_memory.ipynb     # RAG pipeline without memory to access previous chat history
+├── RAG.ipynb                    # RAG pipeline with memory to access previous chat history
 ├── Advanced_RAG.ipynb           # Advanced retrieval 
 ├── requirements.txt             # Python dependencies
 ├── .env                         # Environment variables
