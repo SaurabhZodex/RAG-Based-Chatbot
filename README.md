@@ -120,6 +120,3 @@ Please ensure your code follows the project's style guidelines and includes appr
 - [LangChain](https://www.langchain.com/) for providing the framework to build RAG pipelines.
 - ABC for their language models and APIs.
 
----
-
-For any questions or feedback, please open an issue or contact the maintainers. Happy coding! 🚀
