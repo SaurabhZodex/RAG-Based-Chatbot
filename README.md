@@ -94,12 +94,12 @@ rag-pipeline-langchain/
 ├── Dataset/
 │   ├── verity.txt                  # Text file for "Verity" by Colleen Hoover
 │   └── the_girl_on_the_train.txt   # Text file for "The Girl on the Train" by Paula Hawkins
-├── RAG_without_memory.ipynb     # RAG pipeline without memory to access previous chat history
-├── RAG.ipynb                    # RAG pipeline with memory to access previous chat history
-├── Advanced_RAG.ipynb           # Advanced retrieval 
-├── requirements.txt             # Python dependencies
-├── .env                         # Environment variables
-└── README.md                    # Main project documentation
+├── RAG_without_memory.ipynb        # RAG pipeline without memory to access previous chat history
+├── RAG_with_memory.ipynb           # RAG pipeline with memory to access previous chat history
+├── Advanced_RAG_with_memory.ipynb  # Advanced retrieval 
+├── requirements.txt                # Python dependencies
+├── .env                            # Environment variables
+└── README.md                       # Main project documentation
 ```
 
 ---
