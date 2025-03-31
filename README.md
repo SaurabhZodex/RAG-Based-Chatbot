@@ -13,7 +13,6 @@ This repository contains two implementations of Retrieval-Augmented Generation (
 3. [Data Sources](#data-sources)
 3. [Installation](#installation)
 4. [Project Structure](#project-structure)
-5. [Contributing](#contributing)
 
 ---
 
@@ -92,6 +91,7 @@ Both books are preprocessed and indexed in a vector store for efficient retrieva
 rag-pipeline-langchain/
 
 ├── Dataset/
+│   ├── chroma_db_langchain         # Vector store related files
 │   ├── verity.txt                  # Text file for "Verity" by Colleen Hoover
 │   └── the_girl_on_the_train.txt   # Text file for "The Girl on the Train" by Paula Hawkins
 ├── RAG_without_memory.ipynb        # RAG pipeline without memory to access previous chat history
@@ -104,19 +104,7 @@ rag-pipeline-langchain/
 
 ---
 
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please follow these steps:
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes.
-4. Push your branch and open a pull request.
-
-Please ensure your code follows the project's style guidelines and includes appropriate tests.
-
----
-
 ## Acknowledgments
 - [LangChain](https://www.langchain.com/) for providing the framework to build RAG pipelines.
-- ABC for their language models and APIs.
+- [Groq](https://groq.com/) for their large language models and APIs.
 
